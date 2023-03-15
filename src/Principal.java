@@ -12,6 +12,9 @@ public class Principal {
         System.out.println(meuFilme.somaDasAvaliacoes);
         System.out.println(meuFilme.totalDeAvaliacoes);
         System.out.println(meuFilme.pegaMedia());
+        meuFilme.somaDasAvaliacoes = 10;
+        meuFilme.totalDeAvaliacoes = 1;
+        System.out.println(meuFilme.pegaMedia());
 
     }
 }
